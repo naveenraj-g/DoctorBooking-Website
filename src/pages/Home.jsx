@@ -61,7 +61,7 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-96px)] max-w-4xl mx-auto w-full bg-white dark:bg-gray-800 shadow-xl rounded-lg overflow-hidden my-4 border border-gray-100 dark:border-gray-700 transition-colors duration-200">
+    <div className="flex flex-col h-[calc(100vh-165px)] max-w-4xl mx-auto w-full bg-white dark:bg-gray-800 shadow-xl rounded-lg overflow-hidden my-4 border border-gray-100 dark:border-gray-700 transition-colors duration-200">
       {/* Chat Area */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
         {messages.map((msg, index) => (
